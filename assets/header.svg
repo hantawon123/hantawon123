@@ -1,0 +1,49 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="20" x2="1120" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#17152C"/>
+      <stop offset="0.48" stop-color="#312E81"/>
+      <stop offset="1" stop-color="#6D28D9"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#A78BFA" stop-opacity=".65"/>
+      <stop offset="1" stop-color="#60A5FA" stop-opacity=".08"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="34"/></filter>
+    <linearGradient id="starTrail" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#C4B5FD" stop-opacity=".9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <circle cx="1055" cy="40" r="178" fill="url(#glow)" filter="url(#blur)"/>
+  <circle cx="125" cy="345" r="150" fill="#4F46E5" fill-opacity=".35" filter="url(#blur)"/>
+
+  <!-- Shooting stars: SVG-native animation, no JavaScript required -->
+  <g opacity="0">
+    <path d="M0 0L-105-52" stroke="url(#starTrail)" stroke-width="3" stroke-linecap="round"/>
+    <circle r="4" fill="#FFFFFF"/>
+    <animateTransform attributeName="transform" type="translate" values="190 -35; 900 320" dur="2.6s" begin="0s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.12;.25;.72;1" dur="2.6s" begin="0s" repeatCount="indefinite"/>
+  </g>
+  <g opacity="0">
+    <path d="M0 0L-72-36" stroke="url(#starTrail)" stroke-width="2" stroke-linecap="round"/>
+    <circle r="3" fill="#E0E7FF"/>
+    <animateTransform attributeName="transform" type="translate" values="690 -25; 1180 220" dur="2.2s" begin="1.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.16;.3;.7;1" dur="2.2s" begin="1.4s" repeatCount="indefinite"/>
+  </g>
+  <g opacity="0">
+    <path d="M0 0L-56-28" stroke="url(#starTrail)" stroke-width="2" stroke-linecap="round"/>
+    <circle r="2.5" fill="#BFDBFE"/>
+    <animateTransform attributeName="transform" type="translate" values="40 35; 510 270" dur="2s" begin="2.7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.18;.32;.68;1" dur="2s" begin="2.7s" repeatCount="indefinite"/>
+  </g>
+
+  <path d="M870 42L895 67L870 92" stroke="#C4B5FD" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity=".45"/>
+  <path d="M1085 268L1110 293L1085 318" stroke="#93C5FD" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity=".35"/>
+  <circle cx="931" cy="288" r="7" fill="#A78BFA" opacity=".7"/>
+  <circle cx="1020" cy="113" r="5" fill="#93C5FD" opacity=".8"/>
+  <text x="600" y="154" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-1">HAN TAEWON</text>
+  <text x="600" y="211" text-anchor="middle" fill="#DDD6FE" font-family="Arial, sans-serif" font-size="23" letter-spacing="5">LEARN · BUILD · GROW</text>
+  <rect x="516" y="248" width="168" height="2" rx="1" fill="#A78BFA" opacity=".7"/>
+</svg>
