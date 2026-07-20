@@ -76,7 +76,7 @@
 <a href="https://solved.ac/profile/hantawon123">
     <img src="https://img.shields.io/badge/Algorithm-hantawon123-22D3EE?style=for-the-badge&logo=thealgorithms&logoColor=0B1020" alt="Open Han Tawon solved.ac profile" />
   </a>
-
+  <br>
   <a href="https://solved.ac/profile/hantawon123">
     <img width="49%" src="https://solvedac-readme-badge.vercel.app/api/v1/badge?user=hantawon123&theme=dark&size=large&back_color=0B1020&common_color=67E8F9&sub_color=A5F3FC&border_color=22D3EE" alt="Han Tawon solved.ac profile" />
   </a>
