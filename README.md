@@ -52,7 +52,8 @@
 
   **Cloud & Tools**
 
-  <img src="https://img.shields.io/badge/AWS_%C2%B7_S3-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS and Amazon S3" />
+  <img src="https://img.shields.io/badge/MinIO-C72E49?style=for-the-badge&logo=minio&logoColor=white" alt="MinIO" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" alt="Notion" />
 
@@ -83,12 +84,21 @@
 
 </div>
 
+## 🏆 Awards
 
+| 수상일 | 공모전·대회 | 수상 내역 | 프로젝트·비고 |
+| :---: | --- | :---: | --- |
+<!-- 아래 형식으로 수상 내역을 추가하세요.
+| YYYY.MM | 공모전 또는 대회명 | 대상·최우수상·우수상 | 프로젝트명 또는 담당 역할 |
+-->
+| 2026.07.26 | 제3회 글로벌 데이터 해커톤 DIVE 2026 | 부산교통공사·짐캐리 부문 1등 | 같이가요 |
 
 ## 🎓 Education
+- <b>삼성 SW 역량 평가 B형</b></br>
+(2026.03)
+- <b>삼성청년 SW·AI 아카데미(SSAFY) 15기 / 모바일 트랙</b></br>
+(2026.01 ~ 진행중)
 - <b>국민대학교 소프트웨어학부</b></br>
 (2020.03 ~ 2025.02)
-- <b>삼성청년 SW·AI 아카테미(SSAFY) 15기 / 모바일 트랙</b></br>
-(2026.01 ~ 진행중)
 
 <br />
