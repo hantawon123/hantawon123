@@ -42,6 +42,13 @@
 
   <br /><br />
 
+  **Game**
+
+  <img src="https://img.shields.io/badge/Unity_6-000000?style=for-the-badge&logo=unity&logoColor=white" alt="Unity 6" />
+  <img src="https://img.shields.io/badge/Photon_Fusion-004480?style=for-the-badge&logo=photon&logoColor=white" alt="Photon Fusion" />
+
+  <br /><br />
+
   **Database & Cache**
 
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
@@ -55,7 +62,10 @@
   <img src="https://img.shields.io/badge/MinIO-C72E49?style=for-the-badge&logo=minio&logoColor=white" alt="MinIO" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" alt="Jira" />
   <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" alt="Notion" />
+
+  <br /><br />
 
 </div>
 
