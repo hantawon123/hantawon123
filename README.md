@@ -19,7 +19,15 @@
 - 🔍 **Performance & Reliability** · 외부 인증과 DB 트랜잭션을 분리하고, k6 부하 테스트와 연결 풀 지표로 병목과 개선 결과를 확인합니다.
 - 🎮 **Game Server** · Unity·Photon Fusion 전용 서버를 최적화하고, AI 하이라이트 백엔드에 시간 제한과 규칙 기반 대체 처리를 구현했습니다.
 
-[포트폴리오 · Notion](https://app.notion.com/p/3d888d0e227b8058886bd4639ee1bd2a) · [Email](mailto:hantawon@naver.com)
+<p align="center">
+  <a href="https://app.notion.com/p/3d888d0e227b8058886bd4639ee1bd2a">
+    <img src="https://img.shields.io/badge/PORTFOLIO-6D28D9?style=for-the-badge&logo=notion&logoColor=white" alt="Notion 포트폴리오 보기" />
+  </a>
+  &nbsp;
+  <a href="mailto:hantawon@naver.com">
+    <img src="https://img.shields.io/badge/EMAIL-hantawon%40naver.com-0F766E?style=for-the-badge" alt="이메일 보내기: hantawon@naver.com" />
+  </a>
+</p>
 
 ## 🚀 Project Experience
 
@@ -32,32 +40,17 @@
 
 <div align="center">
 
-  **Languages**
+  **Backend Core**
 
   <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="C#" />
-
-  <br /><br />
-
-  **Backend**
-
   <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="Spring" />
   <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" />
   <img src="https://img.shields.io/badge/REST_API-005571?style=for-the-badge" alt="REST API" />
+  <br />
   <img src="https://img.shields.io/badge/JPA-6DB33F?style=for-the-badge" alt="JPA" />
   <img src="https://img.shields.io/badge/MyBatis-181717?style=for-the-badge" alt="MyBatis" />
   <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge" alt="JWT" />
-  <img src="https://img.shields.io/badge/Liquibase-2962FF?style=for-the-badge&logo=liquibase&logoColor=white" alt="Liquibase" />
   <img src="https://img.shields.io/badge/Swagger_%C2%B7_OpenAPI-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt="Swagger and OpenAPI" />
-
-  <br /><br />
-
-  **Game Server**
-
-  <img src="https://img.shields.io/badge/Unity_6-000000?style=for-the-badge&logo=unity&logoColor=white" alt="Unity 6" />
-  <img src="https://img.shields.io/badge/Photon_Fusion-004480?style=for-the-badge&logo=photon&logoColor=white" alt="Photon Fusion" />
-  <img src="https://img.shields.io/badge/SFML-8CC445?style=for-the-badge&logo=sfml&logoColor=white" alt="SFML" />
 
   <br /><br />
 
@@ -65,7 +58,9 @@
 
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <br />
   <img src="https://img.shields.io/badge/Redis_%C2%B7_Streams-FF4438?style=for-the-badge&logo=redis&logoColor=white" alt="Redis and Redis Streams" />
+  <img src="https://img.shields.io/badge/Liquibase-2962FF?style=for-the-badge&logo=liquibase&logoColor=white" alt="Liquibase" />
 
   <br /><br />
 
@@ -74,16 +69,21 @@
   <img src="https://img.shields.io/badge/k6-7D64FF?style=for-the-badge&logo=k6&logoColor=white" alt="k6" />
   <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" alt="Prometheus" />
   <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt="Grafana" />
-  <img src="https://img.shields.io/badge/NUnit_%C2%B7_Unity_EditMode-512BD4?style=for-the-badge" alt="NUnit and Unity EditMode" />
 
   <br /><br />
 
-  **Cloud & Tools**
+  **Infrastructure & CI/CD**
 
   <img src="https://img.shields.io/badge/MinIO-C72E49?style=for-the-badge&logo=minio&logoColor=white" alt="MinIO" />
   <img src="https://img.shields.io/badge/Docker_%C2%B7_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker and Docker Compose" />
+  <br />
   <img src="https://img.shields.io/badge/AWS_EC2-FF9900?style=for-the-badge" alt="AWS EC2" />
   <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins" />
+
+  <br /><br />
+
+  **Collaboration**
+
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab" />
   <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" alt="Jira" />
@@ -93,6 +93,13 @@
 
 </div>
 
+<details>
+<summary>🎮 Additional Experience · Game Development</summary>
+
+C# · C++ · Unity · Photon Fusion · SFML · NUnit / Unity EditMode
+
+</details>
+
 ## 📊 GitHub Contributions
 
 <div align="center">
@@ -100,8 +107,6 @@
     <img width="100%" src="https://ghchart.rshah.org/7c3aed/hantawon123" alt="한태원의 최근 1년 GitHub 기여 활동" />
   </a>
 </div>
-
-[GitHub에서 기여 활동 보기](https://github.com/hantawon123?tab=overview)
 
 ## 🧩 Algorithm
 
