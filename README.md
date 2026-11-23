@@ -15,9 +15,9 @@
 
 ## 👋 About me
 
-- ⚙️ **Backend** · Java·Spring Boot 기반의 서비스·DB 설계, API 개발과 비동기 분석 연동을 경험했습니다.
-- 🔍 **Performance & Reliability** · 외부 인증과 DB 트랜잭션을 분리하고, k6 부하 테스트와 연결 풀 지표로 병목과 개선 결과를 확인합니다.
-- 🎮 **Game Server** · Unity·Photon Fusion 전용 서버를 최적화하고, AI 하이라이트 백엔드에 시간 제한과 규칙 기반 대체 처리를 구현했습니다.
+- ⚙️ **Backend** · Java·Spring Boot와 TypeScript·NestJS로 서비스·DB를 설계하고 업무 API를 구현합니다.
+- 🔍 **Performance & Reliability** · SQL과 트랜잭션 경계를 개선하고, 부하 테스트·운영 지표로 성능과 복구 동작을 검증합니다.
+- 🧩 **Architecture & Operations** · 모놀리식과 MSA의 동작·성능을 비교하고, CI/CD 및 지표·로그 기반 관측 환경을 구성한 경험이 있습니다.
 
 <p align="center">
   <a href="https://app.notion.com/p/3d888d0e227b8058886bd4639ee1bd2a">
@@ -31,53 +31,86 @@
 
 ## 🚀 Project Experience
 
-| 프로젝트 | 서비스 | 담당 및 주요 경험 |
-| --- | --- | --- |
-| [MODERA](https://github.com/hantawon123/MODERA) | 스크린샷 분석·분류 기반 지식 관리 서비스 | **Backend** · 서비스·DB 설계, Redis Streams 기반 비동기 분석 연동, 외부 인증과 DB 트랜잭션 분리, k6 부하 테스트를 통한 API 성능 개선 |
-| [Don't Touch Mine](https://github.com/hantawon123/Dont-touch-mine)<br>개발 완료 · **Steam 배포 준비 중** | 물건 숨기기·찾기 멀티플레이 게임 | **Game Server / GMS Backend** · 전용 서버의 반복 연산·물리·시각 처리 최적화, 참가자 상태·재접속 처리, AI 하이라이트 선정 API의 시간 제한·대체 처리 |
+### [DVA · 디버 기업 연계 자율 프로젝트](https://github.com/hantawon123/dver-dva)
+
+AI 전화 상담과 택배 접수를 연결하는 업무 서비스<br>
+**Backend · MSA 전환 · CI/CD·관제**
+
+- NestJS·PostgreSQL 기반 고객·기업·통화·주문·결제 API를 구현하고, AI·PBX·결제·택배 서비스와 연동했습니다.
+- 결제 응답 유실과 서버 재시작에 대비한 멱등 처리·결과 재조회·재처리 흐름을 구현하고, 목록 SQL과 중복 조회를 최적화했습니다.
+- 업무 기능을 5개 MSA 서비스로 이식하여 Outbox/Inbox 기반 이벤트 처리와 원본 동작을 대조하고, Jenkins 검증·배포 및 Prometheus·Grafana·Loki 관제 환경을 구성했습니다.
+
+**주요 기술** · TypeScript · NestJS · PostgreSQL · Docker · Kubernetes(k3s) · Jenkins · Prometheus · Grafana · Loki
+
+> 10만 건 합성 데이터·단일 동시 요청 조건의 로컬 실험에서 고객 목록 API p95를 **577.28ms → 11.90ms**로 개선하고, 기존 응답·권한·검색·페이지 동작을 회귀 검증했습니다.
+
+<details>
+<summary>🎙️ VOMI · 음성 통화 확장 경험</summary>
+
+NestJS·LiveKit 기반 통화 연결과 SSE 상태 전달, ElevenLabs 음성 합성 및 OmniVoice·FlashInfer 워커 연동을 진행했습니다. 로컬 GPU 워커와 Lightsail 간 SSH 터널의 자동 재연결을 구성하고 연결 복구를 확인했습니다.
+
+</details>
+
+### [MODERA](https://github.com/hantawon123/MODERA)
+
+스크린샷 분석·분류 기반 지식 관리 서비스<br>
+**Backend**
+
+- 서비스·DB를 설계하고 Redis Streams 기반 비동기 분석 연동을 구현했습니다.
+- 외부 인증과 DB 트랜잭션을 분리하여 연결 점유와 처리 흐름을 개선했습니다.
+- k6 부하 테스트와 연결 풀 지표를 활용해 API 병목과 개선 결과를 검증했습니다.
+
+**주요 기술** · Java · Spring Boot · PostgreSQL · Redis Streams · k6
+
+### [Don't Touch Mine](https://github.com/hantawon123/Dont-touch-mine)
+
+물건을 숨기고 찾는 멀티플레이 게임<br>
+개발 완료 · **STOVE 배포 준비 중**<br>
+**Game Server · GMS Backend**
+
+- 전용 서버의 반복 연산·물리·시각 처리를 최적화했습니다.
+- 참가자 상태와 재접속 처리 흐름을 구현했습니다.
+- AI 하이라이트 선정 API에 시간 제한과 규칙 기반 대체 처리를 적용했습니다.
+
+**주요 기술** · C# · Unity · Photon Fusion
 
 ## 🛠️ Tech stack
 
 <div align="center">
 
-  **Backend Core**
+  **Backend**
 
   <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="Spring" />
   <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" />
-  <img src="https://img.shields.io/badge/REST_API-005571?style=for-the-badge" alt="REST API" />
   <br />
-  <img src="https://img.shields.io/badge/JPA-6DB33F?style=for-the-badge" alt="JPA" />
-  <img src="https://img.shields.io/badge/MyBatis-181717?style=for-the-badge" alt="MyBatis" />
-  <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge" alt="JWT" />
-  <img src="https://img.shields.io/badge/Swagger_%C2%B7_OpenAPI-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt="Swagger and OpenAPI" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS" />
 
   <br /><br />
 
-  **Database & Messaging**
+  **Database**
 
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <br />
-  <img src="https://img.shields.io/badge/Redis_%C2%B7_Streams-FF4438?style=for-the-badge&logo=redis&logoColor=white" alt="Redis and Redis Streams" />
-  <img src="https://img.shields.io/badge/Liquibase-2962FF?style=for-the-badge&logo=liquibase&logoColor=white" alt="Liquibase" />
+  <img src="https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
 
   <br /><br />
 
-  **Testing & Monitoring**
+  **Testing & Observability**
 
   <img src="https://img.shields.io/badge/k6-7D64FF?style=for-the-badge&logo=k6&logoColor=white" alt="k6" />
   <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" alt="Prometheus" />
   <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt="Grafana" />
+  <img src="https://img.shields.io/badge/Loki-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt="Loki" />
 
   <br /><br />
 
   **Infrastructure & CI/CD**
 
-  <img src="https://img.shields.io/badge/MinIO-C72E49?style=for-the-badge&logo=minio&logoColor=white" alt="MinIO" />
-  <img src="https://img.shields.io/badge/Docker_%C2%B7_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker and Docker Compose" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
   <br />
-  <img src="https://img.shields.io/badge/AWS_EC2-FF9900?style=for-the-badge" alt="AWS EC2" />
+  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx" />
   <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins" />
 
   <br /><br />
@@ -87,7 +120,6 @@
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab" />
   <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" alt="Jira" />
-  <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" alt="Notion" />
 
   <br /><br />
 
@@ -96,7 +128,7 @@
 <details>
 <summary>🎮 Additional Experience · Game Development</summary>
 
-C# · C++ · Unity · Photon Fusion · SFML · NUnit / Unity EditMode
+C# · Unity · Photon Fusion
 
 </details>
 
