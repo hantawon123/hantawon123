@@ -31,33 +31,13 @@
 
 ## 🚀 Project Experience
 
-| 프로젝트 | 서비스 | 담당 및 주요 경험 |
+| 프로젝트 | 서비스 | 담당 및 핵심 경험 |
 | --- | --- | --- |
-| **[DVA](https://github.com/hantawon123/dver-dva)**<br><sub>디버 기업 연계 자율 프로젝트</sub> | AI 전화 상담·택배 접수 업무 서비스 | **Backend · MSA · CI/CD · 관제**<br>• 고객·기업·통화·주문·결제 API 및 AI·PBX·결제·택배 연동<br>• 멱등 처리·결과 재조회·재처리, 목록 SQL·중복 조회 최적화<br>• 5개 MSA 서비스 이식, Outbox/Inbox 이벤트 처리·원본 동작 대조<br>• Jenkins 검증·배포 및 Prometheus·Grafana·Loki 관제 |
-| **[MODERA](https://github.com/hantawon123/MODERA)**<br><sub>SSAFY 공통 프로젝트</sub> | 스크린샷 분석·분류 기반 지식 관리 서비스 | **Backend**<br>• 서비스·DB 설계 및 Redis Streams 기반 비동기 분석 연동<br>• 외부 인증과 DB 트랜잭션 분리로 연결 점유·처리 흐름 개선<br>• k6 부하 테스트·연결 풀 지표를 통한 API 성능 검증 |
-| **[FitBox](https://github.com/hantawon123/FitBox)**<br><sub>2인 팀 · 개발 1개월</sub> | 맞춤 식단 주문·구독 및 NFC 픽업 앱 | **Backend · Android**<br>• 주문·구독·픽업 API와 Android 화면 연동<br>• 반복 구독 규칙과 날짜별 주문 분리, 관련 생성 작업의 트랜잭션 처리<br>• 관리자·사용자 화면을 같은 서버 주문 상태에 연결<br>• NFC 픽업 시 사용자·준비 상태·장소·사물함 검증 |
-| **[Don't Touch Mine](https://github.com/hantawon123/Dont-touch-mine-public)**<br><sub>SSAFY 특화 프로젝트 · 개발 완료 · STOVE 배포 준비 중</sub> | 물건 숨기기·찾기 멀티플레이 게임 | **Game Server · GMS Backend**<br>• 전용 서버 반복 연산·물리·시각 처리 최적화<br>• 참가자 상태·재접속 처리<br>• AI 하이라이트 API 시간 제한·규칙 기반 대체 처리 |
-| **[Absorber](https://github.com/kookmin-sw/capstone-2023-49)**<br><sub>국민대학교 캡스톤 · 2023년 · 6인 팀</sub> | 몬스터와 싸우며 무작위 강화로 성장하는 2D 액션 게임 | **Unity Client · 게임 시스템·플레이어**<br>• 입력 정규화·물리 기반 이동과 방향·애니메이션 연동<br>• 체력·경험치 HUD 및 초과 경험치를 보존하는 레벨업 처리<br>• CSV·행운 확률 기반의 중복 없는 강화 후보 3개 생성<br>• 강화 선택·능력치 및 무기 반영·전투 재개 흐름 구현 |
-
-<details>
-<summary>🔎 프로젝트별 기술 및 DVA 성능 검증</summary>
-
-- **DVA** · TypeScript · NestJS · PostgreSQL · Docker · Kubernetes(k3s) · Jenkins · Prometheus · Grafana · Loki
-- **MODERA** · Java · Spring Boot · PostgreSQL · Redis Streams · k6
-- **FitBox** · Java · Spring Boot · MySQL · MyBatis · Kotlin · Android
-- **Don't Touch Mine** · C# · Unity · Photon Fusion
-- **Absorber** · C# · Unity
-
-> DVA는 10만 건 합성 데이터·단일 동시 요청 조건의 로컬 실험에서 고객 목록 API p95를 **577.28ms → 11.90ms**로 개선하고, 기존 응답·권한·검색·페이지 동작을 회귀 검증했습니다.
-
-</details>
-
-<details>
-<summary>🎙️ VOMI · 음성 통화 확장 경험</summary>
-
-NestJS·LiveKit 기반 통화 연결과 SSE 상태 전달, ElevenLabs 음성 합성 및 OmniVoice·FlashInfer 워커 연동을 진행했습니다. 로컬 GPU 워커와 Lightsail 간 SSH 터널의 자동 재연결을 구성하고 연결 복구를 확인했습니다.
-
-</details>
+| **[DVA](https://github.com/hantawon123/dver-dva)** | AI 전화 상담·택배 접수 | **Backend·인프라** · 주문·결제 복구, MSA 전환, CI/CD·관제 |
+| **[MODERA](https://github.com/hantawon123/MODERA)** | 스크린샷 기반 지식 관리 | **Backend** · 비동기 분석 연동, 트랜잭션 개선·부하 검증 |
+| **[FitBox](https://github.com/hantawon123/FitBox)** | 맞춤 식단 주문·구독 앱 | **Backend·Android** · 주문·구독 및 NFC 픽업 연동 |
+| **[Don't Touch Mine](https://github.com/hantawon123/Dont-touch-mine-public)**<br><sub>STOVE 배포 준비 중</sub> | 멀티플레이 숨기기·찾기 게임 | **Game Server·Backend** · 서버 최적화, 재접속·AI 하이라이트 |
+| **[Absorber](https://github.com/kookmin-sw/capstone-2023-49)** | 성장형 2D 액션 게임 | **Unity Client** · 플레이어 조작, 레벨업·강화 시스템 |
 
 ## 🛠️ Tech stack
 
