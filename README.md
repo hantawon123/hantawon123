@@ -33,9 +33,9 @@
 
 | 프로젝트 | 서비스 | 담당 및 주요 경험 |
 | --- | --- | --- |
-| [DVA](https://github.com/hantawon123/dver-dva)<br>디버 기업 연계 자율 프로젝트 | AI 전화 상담·택배 접수 업무 서비스 | **Backend · MSA · CI/CD·관제**<br>• 고객·기업·통화·주문·결제 API 및 AI·PBX·결제·택배 연동<br>• 멱등 처리·결과 재조회·재처리, 목록 SQL·중복 조회 최적화<br>• 5개 MSA 서비스 이식, Outbox/Inbox 이벤트 처리·원본 동작 대조<br>• Jenkins 검증·배포 및 Prometheus·Grafana·Loki 관제 |
-| [MODERA](https://github.com/hantawon123/MODERA) | 스크린샷 분석·분류 기반 지식 관리 서비스 | **Backend**<br>• 서비스·DB 설계 및 Redis Streams 기반 비동기 분석 연동<br>• 외부 인증과 DB 트랜잭션 분리로 연결 점유·처리 흐름 개선<br>• k6 부하 테스트·연결 풀 지표를 통한 API 성능 검증 |
-| [Don't Touch Mine](https://github.com/hantawon123/Dont-touch-mine)<br>개발 완료 · **STOVE 배포 준비 중** | 물건 숨기기·찾기 멀티플레이 게임 | **Game Server · GMS Backend**<br>• 전용 서버 반복 연산·물리·시각 처리 최적화<br>• 참가자 상태·재접속 처리<br>• AI 하이라이트 API 시간 제한·규칙 기반 대체 처리 |
+| **[DVA](https://github.com/hantawon123/dver-dva)**<br><sub>디버 기업 연계 자율 프로젝트</sub> | AI 전화 상담·택배 접수 업무 서비스 | **Backend · MSA · CI/CD · 관제**<br>• 고객·기업·통화·주문·결제 API 및 AI·PBX·결제·택배 연동<br>• 멱등 처리·결과 재조회·재처리, 목록 SQL·중복 조회 최적화<br>• 5개 MSA 서비스 이식, Outbox/Inbox 이벤트 처리·원본 동작 대조<br>• Jenkins 검증·배포 및 Prometheus·Grafana·Loki 관제 |
+| **[MODERA](https://github.com/hantawon123/MODERA)**<br><sub>SSAFY 공통 프로젝트</sub> | 스크린샷 분석·분류 기반 지식 관리 서비스 | **Backend**<br>• 서비스·DB 설계 및 Redis Streams 기반 비동기 분석 연동<br>• 외부 인증과 DB 트랜잭션 분리로 연결 점유·처리 흐름 개선<br>• k6 부하 테스트·연결 풀 지표를 통한 API 성능 검증 |
+| **[Don't Touch Mine](https://github.com/hantawon123/Dont-touch-mine-public)**<br><sub>SSAFY 특화 프로젝트 · 개발 완료 · STOVE 배포 준비 중</sub> | 물건 숨기기·찾기 멀티플레이 게임 | **Game Server · GMS Backend**<br>• 전용 서버 반복 연산·물리·시각 처리 최적화<br>• 참가자 상태·재접속 처리<br>• AI 하이라이트 API 시간 제한·규칙 기반 대체 처리 |
 
 <details>
 <summary>🔎 프로젝트별 기술 및 DVA 성능 검증</summary>
@@ -113,26 +113,19 @@ C# · Unity · Photon Fusion
 
 </details>
 
+## 📈 GitHub Stats & Languages
+
+<div align="center">
+  <img width="55%" src="https://github-readme-stats.vercel.app/api?username=hantawon123&amp;show_icons=true&amp;theme=tokyonight" alt="한태원의 GitHub 활동 통계" />
+  <img width="35%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hantawon123&amp;theme=tokyonight&amp;layout=compact" alt="한태원이 GitHub 공개 저장소에서 가장 많이 사용한 언어" />
+</div>
+
 ## 📊 GitHub Contributions
 
 <div align="center">
   <a href="https://github.com/hantawon123?tab=overview">
     <img width="100%" src="https://ghchart.rshah.org/7c3aed/hantawon123" alt="한태원의 최근 1년 GitHub 기여 활동" />
   </a>
-</div>
-
-## 🧩 Algorithm
-
-<div align="center">
-
-<a href="https://solved.ac/profile/hantawon123">
-    <img src="https://img.shields.io/badge/Algorithm-hantawon123-22D3EE?style=for-the-badge&logo=thealgorithms&logoColor=0B1020" alt="Open Han Tawon solved.ac profile" />
-  </a>
-  <br>
-  <a href="https://solved.ac/profile/hantawon123">
-    <img width="49%" src="https://solvedac-readme-badge.vercel.app/api/v1/badge?user=hantawon123&theme=dark&size=large&back_color=0B1020&common_color=67E8F9&sub_color=A5F3FC&border_color=22D3EE" alt="Han Tawon solved.ac profile" />
-  </a>
-
 </div>
 
 ## 🏆 Awards
